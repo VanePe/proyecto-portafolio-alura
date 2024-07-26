@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --color-terciario: #22D4FD;
+    --fuente-Open: "Open Sans", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    box-sizing: border-box;
+}
+
+.curriculo{
+    display: flex;
+    align-items: center;
+    padding: 5% 12%;
+    justify-content: space-between;
+}
+
+.curriculo_info_personal{
+    display: flex;
+    margin: 0 50px 0 0;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.curriculo_info_estudios{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.curriculo_nombre{
+    font-family: var(--fuente-Open);
+    font-size: 2.3125rem;
+    font-weight: 800;
+    color: var(--color-terciario);
+
+}
+
+.curriculo_titulos{
+    font-family: var(--fuente-Open);
+    color: var(--color-terciario);
+}
+
+.curriculo_parrafo{
+    font-family: var(--fuente-Open);
+}
+
+.curriculo_opciones{
+    font-family: var(--fuente-Open);
+}
